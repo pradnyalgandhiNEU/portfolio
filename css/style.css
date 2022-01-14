@@ -782,11 +782,13 @@ a:hover {
 }
 
 .work-img {
+  height: 240px;
   display: block;
   overflow: hidden;
 }
 
 .work-img img {
+  background-size: cover;
   transition: all 1s;
 }
 
