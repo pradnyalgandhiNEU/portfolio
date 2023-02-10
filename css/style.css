@@ -690,7 +690,7 @@ a:hover {
 
 .skill-mf .progress {
   background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
+  margin: .3rem 0 1rem 0;
   border-radius: 0;
   height: .7rem;
 }
@@ -699,7 +699,31 @@ a:hover {
   height: .7rem;
   background: linear-gradient(45deg, #00538f, #007bd4);
 }
+.work-exp{
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  -5px 5px 10px #f8f8f8,
+             5px -5px 10px #ebebeb;
+  padding: 10px;
+  margin: 2em auto;
+}
+.work-exp .title{
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #000200;
+}
+.work-exp .sub-title{
+  font-size: 0.8em;
+  color: #3b3b3b;
+}
+.pull-right{
+  margin-top: .5em;
+  font-size: 0.8em;
+}
 
+.work-exp-li{
+  font-size: 0.8em;
+}
 /*======================================
 //--//-->   SERVICES
 ======================================*/
