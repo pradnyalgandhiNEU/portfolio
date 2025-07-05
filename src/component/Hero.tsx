@@ -43,7 +43,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative w-full h-screen flex justify-center items-center overflow-hidden text-white"
+      className="relative w-full h-svh flex justify-center items-center overflow-hidden text-white"
     >
       {/* Background dot pattern */}
       <div className="fixed inset-0 -z-20 bg-[#070707] bg-[radial-gradient(#444cf7_0.5px,_transparent_0.5px)] bg-[length:10px_10px]" />
@@ -59,10 +59,10 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+        <h1 className="text-3xl md:text-4xl lg:text-7xl font-extrabold mb-4  bg-gradient-to-r from-blue-400  to-purple-900 bg-clip-text text-transparent">
           Pradnyal Gandhi
         </h1>
-        <p className="text-2xl font-mono md:text-3xl max-w-xl mx-auto text-blue-500 font-semibold tracking-wider drop-shadow-lg">
+        <p className="text-2xl md:text-3xl max-w-xl mx-auto text-gray-600 font-semibold tracking-wider drop-shadow-lg">
           {displayedText}
           <span className="border-r-2 border-white ml-1 animate-pulse"></span>
         </p>

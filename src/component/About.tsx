@@ -38,10 +38,16 @@ const About = () => {
                 <p className="text-gray-500">Pittsburgh, PA</p>
               </div>
               <div className="flex flex-row gap-2 justify-end">
-                <Link href="https://www.linkedin.com/in/pradnyal-gandhi">
+                <Link
+                  href="https://www.linkedin.com/in/pradnyal-gandhi"
+                  target="_blank"
+                >
                   <i className="ion-social-linkedin text-4xl"></i>
                 </Link>
-                <Link href="https://github.com/pradnyalgandhiNEU">
+                <Link
+                  href="https://github.com/pradnyalgandhiNEU"
+                  target="_blank"
+                >
                   <i className="ion-social-github text-4xl"></i>
                 </Link>
               </div>
