@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: #070707;
+}
+
+.animated-bg {
+  background-color: #070707;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px);
+  background-size: 10px 10px;
+  animation: moveDots 60s linear infinite;
+  will-change: transform;
+}
+@keyframes moveDots {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, -200px); /* diagonal movement */
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+.animate-rotate1 {
+  animation: rotate1 5s linear infinite;
+}
+.animate-rotate2 {
+  animation: rotate2 10s linear infinite;
+}
+.animate-rotate3 {
+  animation: rotate3 15s linear infinite;
+}
