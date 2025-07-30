@@ -37,6 +37,7 @@ const About = () => {
                 <p className="text-gray-100">Location: </p>
                 <p className="text-gray-500">Pittsburgh, PA</p>
               </div>
+
               <div className="flex flex-row gap-2 justify-end">
                 <Link
                   href="https://www.linkedin.com/in/pradnyal-gandhi"
@@ -69,9 +70,9 @@ const About = () => {
               role="Software Engineer"
               duration="Oct '23 - Present"
               points={[
-                "Built 3 full-stack web apps using ML and computer vision for inventory and quality control.",
-                "Used TypeScript, Next.js, Postgres, and Azure to build dashboards, SSO auth, and notifications.",
-                "Automated CI/CD using Azure DevOps & GitHub Actions. Built tests with Cypress and Playwright.",
+                "Built 2 full-stack platforms integrating ML-based computer vision for real-time defect detection and IoT-based asset tracking, reducing manual QC effort by 90%",
+                "Engineered scalable dashboards with TypeScript, Next.js, PostgreSQL, and Azure services—featuring SSO authentication, real-time alerts, and live analytics using WebSockets",
+                "Automated CI/CD pipelines with Azure DevOps and GitHub Actions; implemented robust end-to-end testing using Cypress and Playwright to ensure production stability",
               ]}
             />
 
@@ -90,9 +91,9 @@ const About = () => {
               role="UI Developer Intern"
               duration="Sept '22 - Jan '23"
               points={[
-                "Modernized 4 apps using React, Redux, and Saga for REST APIs.",
-                "Resolved bugs and improved user experience of legacy systems.",
-                "Collaborated with stakeholders in Agile teams for design and testing.",
+                "Modernized legacy systems by migrating 4 high-traffic internal portals (10K+ vehicles/day) to modern React with Hooks and ES6+, boosting load speed and maintainability",
+                "Engineered multilingual interfaces with locale-based rendering and state management, reducing translation errors by 45% and improving accessibility for Canadian and U.S. markets",
+                "Collaborated in agile sprints to design, test, and deliver performant, responsive UI components—enhancing UX through Figma collaboration, accessibility checks, and user feedback loops",
               ]}
             />
 
@@ -101,8 +102,9 @@ const About = () => {
               role="Product Engineer"
               duration="July '20 - Nov '20"
               points={[
-                "Built a fintech wealth tracking platform as part of a full-stack team.",
-                "Developed backend pipelines in Python and dashboards in React.",
+                "Led full-stack development of an MVP wealth management platform with responsive dashboards, CMS tools, and landing pages built from Figma designs",
+                "Built data pipelines in Python to parse and normalize financial data from 15+ Indian banks, exposing RESTful APIs using Django for seamless client integration",
+                "Drove beta testing and iteration by automating deployments (GitHub Actions + Docker), enabling internal content management, and analyzing SEO & user metrics to boost engagement and conversions",
               ]}
             />
           </div>
